@@ -16,3 +16,6 @@ block doesn't catch the error.
 The error doesn't seem to be catchable via `process.on('unhandledRejection')`.
 
 Reproduce using `bun test`.
+
+I've filed a Bun feature request for adding an API to catch the error:
+https://github.com/oven-sh/bun/issues/10226
